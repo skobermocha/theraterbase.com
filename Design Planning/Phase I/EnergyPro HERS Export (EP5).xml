@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Title24XML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://tempuri.org/Title24XML.xsd">
+  <RunDetails SoftwareName="EnergyPro" SoftwareVersion="5.1.4.2" />
+  <Loan InterestRate="6" Term="30" TaxBracket="30" />
+  <Project ProjectType="New" CAZone="3" Country="UNITED STATES" State="California" City="Soledad" PlanName="Plan 5">
+    <ProjectTitle Address="Soledad Project" City="Soledad" State="CA" Zip="" Name="Plan 5" Phone="" />
+    <DocumentationAuthorTitle Address="615 13th Street Suite A" City="Modesto" State="CA" Zip="95356" Company="DuctTesters, Inc" Name="Jeremiah Ellis, CEA" Phone="209.579.5000" Fax="209.522.5001" Email="jeremiah@ducttesters.com" />
+  </Project>
+  <Building BuildingType="SingleFamily" ConditionedFloorArea="2376" NumberOfDwellingUnits="1" Stories="2" HighMassBuilding="false" ConditionedSlabArea="1009" FrontOrientation="0">
+    <Appliance WasherLocation="Conditioned" DryerType="Electric" RangeType="GasNoPilot" garageRefrigeratorkWh="0" DishwasherEF="0.65000000834465" InsideRefrigeratorkWh="775" WellPump="false" SewerGrinderPump="false" PoolType="None" SpaType="None" DryerLocation="Conditioned" />
+    <Plant>
+      <Renewables DCRating="0" AnnualTDV="0" />
+      <RenewableMonthly Month="1" Cost="0" Demand="0" Energy="0" />
+      <RenewableMonthly Month="2" Cost="0" Demand="0" Energy="0" />
+      <RenewableMonthly Month="3" Cost="0" Demand="0" Energy="0" />
+      <RenewableMonthly Month="4" Cost="0" Demand="0" Energy="0" />
+      <RenewableMonthly Month="5" Cost="0" Demand="0" Energy="0" />
+      <RenewableMonthly Month="6" Cost="0" Demand="0" Energy="0" />
+      <RenewableMonthly Month="7" Cost="0" Demand="0" Energy="0" />
+      <RenewableMonthly Month="8" Cost="0" Demand="0" Energy="0" />
+      <RenewableMonthly Month="9" Cost="0" Demand="0" Energy="0" />
+      <RenewableMonthly Month="10" Cost="0" Demand="0" Energy="0" />
+      <RenewableMonthly Month="11" Cost="0" Demand="0" Energy="0" />
+      <RenewableMonthly Month="12" Cost="0" Demand="0" Energy="0" />
+      <WaterHeating ConstructionStatus="New" EnergyFactor="0.62" SolarFraction="0" ExternalTankInsulation="0" RatedInput="40000" RecoveryEfficiency="0.76" StandbyLoss="0.039999999105930328" TankSize="50" MFCentral="false" RecircControl="None" PumpQuantity="1" PumpHP="0" PremimumMotor="false" PipingOutsideFt="0" PipingUnderGroundFt="0" PipingPlenumFt="0" ExtraHalfInchPipeInsulation="false" PipingDiameterFt="0.5" InsulationThickness="0.5" DistributionType="None" DHWType="GasFired" />
+      <HVAC HVACSystemType="SplitDX" HeatingHVACType="GasFurnace" HeatingEfficiency="0.91" HeatingEfficiencyType="AFUE" CoolingHVACType="SplitAirConditioner" CoolingEfficiency="13" RefrigerantCharge="false" TestedAirFlow="false" DuctsInConditionedSpace="No" DuctSurfaceAreaReduction="false" ReducedInfiltration="false" HeatingDuctEfficiency="0" Flow="1188" SupplyFanHP="0" FanHeatIncluded="true" DuctLocation="AtticCeilingInsVented" DuctRValue="8" QualityInsulation="false" EER="11" VerifiedFanEnergy="false" MaximumCoolingSize="27808.258537291655" MaximiumCoolingPower="2780.8258537291654" DesignCoolingCapacity="0" SensibleCoolingCapacity="0" Thermostat="Setback" Hydronic="None" HighEER="false" CondenserType="AirCooled" CoolingProperlySized="false" ConstructionStatus="New" SupplyCFM="0" ExhaustCFM="0" VentilationWatts="0" CondenserISACType="B600LRL1CXX" DuctStatus="New" ExistSLA="4.9" NewSLA="3.5" ExistCFM50="0" NewCFM50="0" SLAStatus="New">
+        <Zone ZoneType="Setback" FloorNo="2">
+          <Room ConstructionStatus="New" FloorArea="1367" CeilingHeight="9" WinterIDB="70" SummerIDB="78" NDwelling="0" NBedrooms="5" YearBuilt="2011">
+            <Insulation SurfaceType="Roof" Area="1434" Length="0" UFactor="0.031" F2Factor="0" Orientation="0" CavityInsulationRValue="R-30" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="0" JAIVIndex="4.2.1-A20" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="3" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="0" />
+            <Insulation SurfaceType="Roof" Area="40" Length="0" UFactor="0.049" F2Factor="0" Orientation="0" CavityInsulationRValue="R-19" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="0" JAIVIndex="4.2.2-A36" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="3" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="0" />
+            <Insulation SurfaceType="Wall" Area="360" Length="0" UFactor="0.072443181818181809" F2Factor="0" Orientation="0" CavityInsulationRValue="R-13" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="4" JAIVIndex="4.3.1-A3" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="90">
+              <Fenestration Name="Operable Windows" Area="22" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+              <Fenestration Name="Operable Windows" Area="22" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+              <Fenestration Name="Fixed Windows" Area="6" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+              <Fenestration Name="Fixed Windows" Area="6" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+            </Insulation>
+            <Insulation SurfaceType="Wall" Area="261" Length="0" UFactor="0.072443181818181809" F2Factor="0" Orientation="90" CavityInsulationRValue="R-13" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="4" JAIVIndex="4.3.1-A3" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="90">
+              <Fenestration Name="Operable Windows" Area="18" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+              <Fenestration Name="Operable Windows" Area="8" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+              <Fenestration Name="Operable Windows" Area="8" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+            </Insulation>
+            <Insulation SurfaceType="Wall" Area="360" Length="0" UFactor="0.072443181818181809" F2Factor="0" Orientation="180" CavityInsulationRValue="R-13" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="4" JAIVIndex="4.3.1-A3" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="90">
+              <Fenestration Name="Operable Windows" Area="24" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="5" Height="5" />
+              <Fenestration Name="Operable Windows" Area="16" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="8" Height="5" />
+              <Fenestration Name="Operable Windows" Area="16" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="8" Height="5" />
+            </Insulation>
+            <Insulation SurfaceType="Wall" Area="261" Length="0" UFactor="0.072443181818181809" F2Factor="0" Orientation="270" CavityInsulationRValue="R-13" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="4" JAIVIndex="4.3.1-A3" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="90">
+              <Fenestration Name="Operable Windows" Area="8" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+              <Fenestration Name="Operable Windows" Area="6" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+            </Insulation>
+            <Insulation SurfaceType="Floor" Area="438" Length="0" UFactor="0.048" F2Factor="0" Orientation="0" CavityInsulationRValue="R-19" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="0" JAIVIndex="4.4.2-A4" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="0" />
+          </Room>
+          <Room ConstructionStatus="New" FloorArea="1009" CeilingHeight="9" WinterIDB="70" SummerIDB="78" NDwelling="1" NBedrooms="1" YearBuilt="2011">
+            <Insulation SurfaceType="Roof" Area="100" Length="0" UFactor="0.031" F2Factor="0" Orientation="0" CavityInsulationRValue="R-30" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="0" JAIVIndex="4.2.1-A20" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="3" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="0" />
+            <Insulation SurfaceType="Wall" Area="198" Length="0" UFactor="0.102" F2Factor="0" Orientation="0" CavityInsulationRValue="R-13" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="0" JAIVIndex="4.3.1-A3" CRRCCertified="false" Reflectance="1" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="90" />
+            <Insulation SurfaceType="Wall" Area="171" Length="0" UFactor="0.072443181818181809" F2Factor="0" Orientation="0" CavityInsulationRValue="R-13" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="4" JAIVIndex="4.3.1-A3" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="90">
+              <Fenestration Name="Operable Windows" Area="20" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+              <Door Area="24" UFactor="0.5" JAIVIndex="4.5.1-A4" ConstructionStatus="New" />
+            </Insulation>
+            <Insulation SurfaceType="Wall" Area="315" Length="0" UFactor="0.072443181818181809" F2Factor="0" Orientation="90" CavityInsulationRValue="R-13" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="4" JAIVIndex="4.3.1-A3" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="90">
+              <Fenestration Name="Operable Windows" Area="4.5" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+            </Insulation>
+            <Insulation SurfaceType="Wall" Area="360" Length="0" UFactor="0.072443181818181809" F2Factor="0" Orientation="180" CavityInsulationRValue="R-13" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="4" JAIVIndex="4.3.1-A3" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="90">
+              <Fenestration Name="Operable Windows" Area="16" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="5" Height="5" />
+              <Fenestration Name="Sliding Door (SGD)" Area="40" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="8" Height="5" />
+              <Fenestration Name="Operable Windows" Area="25" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="5" Height="5" />
+              <Fenestration Name="Operable Windows" Area="25" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="5" Height="5" />
+            </Insulation>
+            <Insulation SurfaceType="Wall" Area="234" Length="0" UFactor="0.072443181818181809" F2Factor="0" Orientation="270" CavityInsulationRValue="R-13" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="4" JAIVIndex="4.3.1-A3" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="90">
+              <Fenestration Name="Fixed Windows" Area="4" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+              <Fenestration Name="Fixed Windows" Area="4" UFactor="0.4" UFactorType="NFRC" SHGC="0.4" SHGCType="NFRC" ConstructionStatus="New" ExteriorShading="BugScreen" Width="0" Height="0" />
+            </Insulation>
+            <Insulation SurfaceType="Wall" Area="76" Length="0" UFactor="0.102" F2Factor="0" Orientation="270" CavityInsulationRValue="R-13" FrameType="Wood" AddedIntInsulation="0" AddedExtInsulation="0" JAIVIndex="4.3.1-A3" CRRCCertified="false" Reflectance="1" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="None" ExternalMassThickness="0" ExternalMassExposed="false" ConstructionStatus="New" Tilt="90">
+              <Door Area="18" UFactor="0.5" JAIVIndex="4.5.1-A4" ConstructionStatus="New" />
+            </Insulation>
+            <Insulation SurfaceType="Slab" Area="1009" Length="150" UFactor="0.73000000000000009" F2Factor="0.73000000000000009" Orientation="0" CavityInsulationRValue="None" FrameType="None" AddedIntInsulation="0" AddedExtInsulation="0" JAIVIndex="4.4.7-A1" CRRCCertified="false" Reflectance="0.30000001192092896" Emittance="0.75" RadiantBarrier="None" RoofWeight="0" AirSpace="false" EnhancedVent="false" VentHigh="0" UndergroundWallDepth="0" SlabPerimeter="0" ExternalMassType="ConcreteHeavyweight" ExternalMassThickness="3.5" ExternalMassExposed="false" ConstructionStatus="New" Tilt="0" />
+          </Room>
+        </Zone>
+        <NewDistribution HeatingDistribution="Ducted" CoolingDistribution="Ducted" TestedDuctLeakage="true" DuctLeakageTarget="6" DuctLeakageCFM25="0" Measured="false" LessThan12="false" AtticInsulationType="Fiberglass" AtticInsulR="30" LowLeakageAHU="false" LowLeakageDucts="false" />
+      </HVAC>
+    </Plant>
+  </Building>
+  <Result CalculationType="ResT24Perf" RunType="Title24" RunDate="11:51:23.4128394-08:00" ResultType="Standard" Score="0" ScoreNoPV="0" MeasureCost="0" GasUseTherms="500.807394996468" GasCost="0" ElectricityUsekWh="807.410288322571" ElectricityCost="0">
+    <UtilityElecUse Month="0" Heating="0" Cooling="252.20924968926255" Total="807.41028832257621" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="555.2010386333136" OutdoorLighting="0" Renewables="0" />
+    <UtilityGasUse Month="0" Heating="237.86538869953159" Cooling="0" Total="500.80739499646421" WaterHeating="262.94200629694285" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <TDVUse Month="0" Heating="15.793755309130916" Cooling="2.7742857690781806" Total="38.326194283645648" WaterHeating="16.410828836095394" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="3.3473243693411536" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="1" Heating="0" Cooling="0" Total="99.3106289094332" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="99.3106289094332" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="2" Heating="0" Cooling="0" Total="60.844864964589952" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="60.844864964589952" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="3" Heating="0" Cooling="0" Total="51.008033600434715" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="51.008033600434715" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="4" Heating="0" Cooling="10.524971229604637" Total="44.332365878194857" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="33.807394648590225" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="5" Heating="0" Cooling="56.108116170020878" Total="97.1180373269234" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="41.009921156902521" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="6" Heating="0" Cooling="35.514981350031128" Total="62.312277945052692" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="26.797296595021564" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="7" Heating="0" Cooling="20.386728049232712" Total="39.904964785683447" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="19.518236736450731" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="8" Heating="0" Cooling="7.5808984603904186" Total="23.81285576047766" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="16.231957300087242" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="9" Heating="0" Cooling="72.667453071779775" Total="105.84993407246377" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="33.182481000683993" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="10" Heating="0" Cooling="46.629605981495388" Total="78.328895622497072" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="31.699289641001691" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="11" Heating="0" Cooling="2.7964953767076253" Total="48.346105187162081" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="45.549609810454456" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="12" Heating="0" Cooling="0" Total="96.2413242696633" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="96.2413242696633" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="1" Heating="63.224911477661131" Cooling="0" Total="86.063370471513323" WaterHeating="22.838458993852338" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="2" Heating="35.668609083251951" Cooling="0" Total="56.486322595562633" WaterHeating="20.817713512310664" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="3" Heating="27.338670474548341" Cooling="0" Total="50.405516610632894" WaterHeating="23.066846136084539" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="4" Heating="12.759288929748536" Cooling="0" Total="34.983544244913077" WaterHeating="22.224255315164413" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="5" Heating="8.727339224853516" Cooling="0" Total="31.294574021246984" WaterHeating="22.56723479639345" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="6" Heating="2.4250135534667967" Cooling="0" Total="24.237368585285587" WaterHeating="21.812355031818775" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="7" Heating="0" Cooling="0" Total="21.471084194212128" WaterHeating="21.471084194212128" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="8" Heating="0" Cooling="0" Total="21.606787480962719" WaterHeating="21.606787480962719" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="9" Heating="0" Cooling="0" Total="20.89219989622687" WaterHeating="20.89219989622687" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="10" Heating="3.7137977185058593" Cooling="0" Total="25.478867255562214" WaterHeating="21.765069537056334" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="11" Heating="23.063176240234377" Cooling="0" Total="44.454310546880009" WaterHeating="21.391134306645533" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="12" Heating="60.944581997261047" Cooling="0" Total="83.433449093469108" WaterHeating="22.488867096208317" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasUse Month="1" Cost="0" Demand="66.087315791311568" Energy="86.063370471513608" />
+    <MonthlyGasUse Month="2" Cost="0" Demand="56.226144108821259" Energy="56.486322595562584" />
+    <MonthlyGasUse Month="3" Cost="0" Demand="56.369422833978071" Energy="50.405516610632958" />
+    <MonthlyGasUse Month="4" Cost="0" Demand="48.651837438678783" Energy="34.983544244912949" />
+    <MonthlyGasUse Month="5" Cost="0" Demand="47.675110189915145" Energy="31.294574021246927" />
+    <MonthlyGasUse Month="6" Cost="0" Demand="45.547339226324155" Energy="23.883804108400778" />
+    <MonthlyGasUse Month="7" Cost="0" Demand="5.9050030016634638" Energy="21.82464867109702" />
+    <MonthlyGasUse Month="8" Cost="0" Demand="5.8385220438198147" Energy="21.606787480962776" />
+    <MonthlyGasUse Month="9" Cost="0" Demand="5.8328664530937555" Energy="20.892199896226877" />
+    <MonthlyGasUse Month="10" Cost="0" Demand="46.379284025678544" Energy="25.478867255562225" />
+    <MonthlyGasUse Month="11" Cost="0" Demand="55.518914731062686" Energy="44.454310546879931" />
+    <MonthlyGasUse Month="12" Cost="0" Demand="62.613093923255107" Energy="83.433449093469321" />
+    <MonthlyElecUse Month="1" Cost="0" Demand="0.8250186986110094" Energy="99.310628909432552" />
+    <MonthlyElecUse Month="2" Cost="0" Demand="0.69144022796568272" Energy="60.844864964589441" />
+    <MonthlyElecUse Month="3" Cost="0" Demand="0.69330078983390708" Energy="51.008033600434217" />
+    <MonthlyElecUse Month="4" Cost="0" Demand="3.8074653954090976" Energy="44.33236587819507" />
+    <MonthlyElecUse Month="5" Cost="0" Demand="5.7206320931685832" Energy="97.11803732692259" />
+    <MonthlyElecUse Month="6" Cost="0" Demand="6.4167509797099322" Energy="62.102177941550245" />
+    <MonthlyElecUse Month="7" Cost="0" Demand="4.0557016170936491" Energy="40.115064789184274" />
+    <MonthlyElecUse Month="8" Cost="0" Demand="3.3580686724014797" Energy="23.81285576047803" />
+    <MonthlyElecUse Month="9" Cost="0" Demand="7.0441860910947112" Energy="105.8499340724637" />
+    <MonthlyElecUse Month="10" Cost="0" Demand="4.9322213263166566" Energy="78.328895622495878" />
+    <MonthlyElecUse Month="11" Cost="0" Demand="2.3589994540635071" Energy="48.346105187162017" />
+    <MonthlyElecUse Month="12" Cost="0" Demand="0.80725537581489892" Energy="96.24132426966294" />
+  </Result>
+  <Result CalculationType="ResT24Perf" RunType="Title24" RunDate="11:51:23.4128394-08:00" ResultType="Facing North" Score="0" ScoreNoPV="0" MeasureCost="0" GasUseTherms="486.77495877673681" GasCost="0" ElectricityUsekWh="586.42057925698225" ElectricityCost="0">
+    <UtilityElecUse Month="0" Heating="0" Cooling="35.618986973062555" Total="586.42057925698487" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="550.80159228392233" OutdoorLighting="0" Renewables="0" />
+    <UtilityGasUse Month="0" Heating="238.11260593872072" Cooling="0" Total="486.7749587767409" WaterHeating="248.66235283801618" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <TDVUse Month="0" Heating="15.686831636175207" Cooling="0.38628819515173579" Total="34.561881026812046" WaterHeating="15.520546487332181" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="2.9682147081529235" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="1" Heating="0" Cooling="0" Total="101.71444951618238" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="101.71444951618238" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="2" Heating="0" Cooling="0" Total="65.643845391350339" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="65.643845391350339" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="3" Heating="0" Cooling="0" Total="60.560935290090995" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="60.560935290090995" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="4" Heating="0" Cooling="0" Total="44.9126143300425" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="44.9126143300425" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="5" Heating="0" Cooling="5.23929644008204" Total="42.72368708782939" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="37.484390647747354" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="6" Heating="0" Cooling="0.70689369288840465" Total="20.938037589537306" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="20.2311438966489" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="7" Heating="0" Cooling="0" Total="14.000300233328479" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="14.000300233328479" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="8" Heating="0" Cooling="0" Total="14.210400236829997" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="14.210400236829997" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="9" Heating="0" Cooling="17.572750973415069" Total="36.036685571410665" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="18.4639345979956" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="10" Heating="0" Cooling="12.100045866677045" Total="36.3271276014067" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="24.227081734729659" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="11" Heating="0" Cooling="0" Total="49.780511973996056" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="49.780511973996056" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="12" Heating="0" Cooling="0" Total="99.571984434980052" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="99.571984434980052" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="1" Heating="55.723557783050538" Cooling="0" Total="77.346861231683235" WaterHeating="21.623303448632857" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="2" Heating="33.629136208496092" Cooling="0" Total="53.348221284715443" WaterHeating="19.719085076219418" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="3" Heating="29.516539013977052" Cooling="0" Total="51.366836136904048" WaterHeating="21.850297122927053" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="4" Heating="19.843427452850342" Cooling="0" Total="40.891061262614514" WaterHeating="21.047633809764189" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="5" Heating="13.919125967407227" Cooling="0" Total="35.272588366712064" WaterHeating="21.353462399304821" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="6" Heating="3.8691884655761717" Cooling="0" Total="24.490068952923945" WaterHeating="20.620880487347726" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="7" Heating="0" Cooling="0" Total="20.279344340527402" WaterHeating="20.279344340527402" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="8" Heating="0" Cooling="0" Total="20.39740731906786" WaterHeating="20.39740731906786" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="9" Heating="0" Cooling="0" Total="19.721881223025683" WaterHeating="19.721881223025683" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="10" Heating="4.3090601464843754" Cooling="0" Total="24.864150770034659" WaterHeating="20.555090623550328" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="11" Heating="22.943359263916015" Cooling="0" Total="43.161934933755596" WaterHeating="20.218575669839495" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="12" Heating="54.35921163696289" Cooling="0" Total="75.634602954772149" WaterHeating="21.275391317809284" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasUse Month="1" Cost="0" Demand="55.816114575440359" Energy="77.346861231683249" />
+    <MonthlyGasUse Month="2" Cost="0" Demand="50.170251729472156" Energy="53.348221284715493" />
+    <MonthlyGasUse Month="3" Cost="0" Demand="49.997285211504177" Energy="51.366836136904169" />
+    <MonthlyGasUse Month="4" Cost="0" Demand="43.610049525304809" Energy="40.891061262614457" />
+    <MonthlyGasUse Month="5" Cost="0" Demand="42.725350139143814" Energy="35.272588366712036" />
+    <MonthlyGasUse Month="6" Cost="0" Demand="41.27968625060501" Energy="24.155008253623119" />
+    <MonthlyGasUse Month="7" Cost="0" Demand="5.7208376998851245" Energy="20.614405039828295" />
+    <MonthlyGasUse Month="8" Cost="0" Demand="5.65479153050771" Energy="20.39740731906786" />
+    <MonthlyGasUse Month="9" Cost="0" Demand="5.6491731897095478" Energy="19.721881223025665" />
+    <MonthlyGasUse Month="10" Cost="0" Demand="41.056833671909935" Energy="24.864150770034698" />
+    <MonthlyGasUse Month="11" Cost="0" Demand="47.342505155959046" Energy="43.161934933755511" />
+    <MonthlyGasUse Month="12" Cost="0" Demand="55.057740818991974" Energy="75.634602954772276" />
+    <MonthlyElecUse Month="1" Cost="0" Demand="0.80096973829383977" Energy="101.71444951618182" />
+    <MonthlyElecUse Month="2" Cost="0" Demand="0.71132813930651184" Energy="65.6438453913498" />
+    <MonthlyElecUse Month="3" Cost="0" Demand="0.7085333622134119" Energy="60.560935290090441" />
+    <MonthlyElecUse Month="4" Cost="0" Demand="0.621371725525564" Energy="44.912614330042281" />
+    <MonthlyElecUse Month="5" Cost="0" Demand="2.1758734197026994" Energy="42.723687087829333" />
+    <MonthlyElecUse Month="6" Cost="0" Demand="0.9191570309924828" Energy="20.727937586035875" />
+    <MonthlyElecUse Month="7" Cost="0" Demand="0.01910000031831989" Energy="14.210400236829791" />
+    <MonthlyElecUse Month="8" Cost="0" Demand="0.01910000031831989" Energy="14.210400236829791" />
+    <MonthlyElecUse Month="9" Cost="0" Demand="3.7546153522606578" Energy="36.036685571410494" />
+    <MonthlyElecUse Month="10" Cost="0" Demand="2.6572243449906607" Energy="36.327127601406943" />
+    <MonthlyElecUse Month="11" Cost="0" Demand="0.70444570564294606" Energy="49.780511973995971" />
+    <MonthlyElecUse Month="12" Cost="0" Demand="0.8129852768825081" Energy="99.571984434979768" />
+  </Result>
+  <Result CalculationType="ResT24Perf" RunType="Title24" RunDate="11:51:23.4128394-08:00" ResultType="Facing East" Score="0" ScoreNoPV="0" MeasureCost="0" GasUseTherms="489.86839450463344" GasCost="0" ElectricityUsekWh="623.30061771650753" ElectricityCost="0">
+    <UtilityElecUse Month="0" Heating="0" Cooling="60.821488280677741" Total="623.30061771651015" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="562.47912943583231" OutdoorLighting="0" Renewables="0" />
+    <UtilityGasUse Month="0" Heating="241.20604166661744" Cooling="0" Total="489.86839450463737" WaterHeating="248.66235283801618" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <TDVUse Month="0" Heating="15.951572989691709" Cooling="0.52421783154371326" Total="35.043131896820469" WaterHeating="15.520546487332181" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="3.0467945882528698" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="1" Heating="0" Cooling="0" Total="105.57480713994909" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="105.57480713994909" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="2" Heating="0" Cooling="0" Total="67.8573872778306" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="67.8573872778306" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="3" Heating="0" Cooling="0" Total="59.960398953714716" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="59.960398953714716" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="4" Heating="0" Cooling="1.2152025573176091" Total="40.176104219505383" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="38.960901662187773" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="5" Heating="0" Cooling="19.872603945392616" Total="54.608278799294517" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="34.7356748539019" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="6" Heating="0" Cooling="12.762882441675213" Total="34.268036302219485" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="21.505153860544272" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="7" Heating="0" Cooling="5.3841482274804058" Total="20.82936026447161" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="15.445212036991203" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="8" Heating="0" Cooling="0" Total="14.210400236829997" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="14.210400236829997" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="9" Heating="0" Cooling="17.47366164012141" Total="35.922708171014037" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="18.449046530892623" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="10" Heating="0" Cooling="4.1129894686904853" Total="26.748756158327449" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="22.635766689636963" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="11" Heating="0" Cooling="0" Total="55.224197557585143" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="55.224197557585143" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="12" Heating="0" Cooling="0" Total="107.92018263576809" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="107.92018263576809" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="1" Heating="58.181876457824707" Cooling="0" Total="79.8051799064574" WaterHeating="21.623303448632857" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="2" Heating="35.038744447479246" Cooling="0" Total="54.7578295236986" WaterHeating="19.719085076219418" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="3" Heating="29.134110731863977" Cooling="0" Total="50.984407854790973" WaterHeating="21.850297122927053" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="4" Heating="15.841849412841796" Cooling="0" Total="36.889483222605968" WaterHeating="21.047633809764189" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="5" Heating="9.66919135498047" Cooling="0" Total="31.022653754285304" WaterHeating="21.353462399304821" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="6" Heating="2.5966566186523439" Cooling="0" Total="23.217537106000098" WaterHeating="20.620880487347726" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="7" Heating="0" Cooling="0" Total="20.279344340527402" WaterHeating="20.279344340527402" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="8" Heating="0" Cooling="0" Total="20.39740731906786" WaterHeating="20.39740731906786" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="9" Heating="0" Cooling="0" Total="19.721881223025683" WaterHeating="19.721881223025683" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="10" Heating="4.6582156994628905" Cooling="0" Total="25.213306323013175" WaterHeating="20.555090623550328" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="11" Heating="26.409959130859374" Cooling="0" Total="46.628534800698915" WaterHeating="20.218575669839495" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="12" Heating="59.675437812652589" Cooling="0" Total="80.950829130461841" WaterHeating="21.275391317809284" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasUse Month="1" Cost="0" Demand="55.243352856690365" Energy="79.805179906457411" />
+    <MonthlyGasUse Month="2" Cost="0" Demand="49.902591573222153" Energy="54.757829523698639" />
+    <MonthlyGasUse Month="3" Cost="0" Demand="49.653273492754174" Energy="50.984407854791129" />
+    <MonthlyGasUse Month="4" Cost="0" Demand="43.003436244054804" Energy="36.889483222605946" />
+    <MonthlyGasUse Month="5" Cost="0" Demand="41.850285047111974" Energy="31.022653754285276" />
+    <MonthlyGasUse Month="6" Cost="0" Demand="40.707584688105008" Energy="22.882476406699308" />
+    <MonthlyGasUse Month="7" Cost="0" Demand="5.7208376998851245" Energy="20.614405039828295" />
+    <MonthlyGasUse Month="8" Cost="0" Demand="5.65479153050771" Energy="20.39740731906786" />
+    <MonthlyGasUse Month="9" Cost="0" Demand="5.6491731897095478" Energy="19.721881223025665" />
+    <MonthlyGasUse Month="10" Cost="0" Demand="40.619931328159929" Energy="25.21330632301321" />
+    <MonthlyGasUse Month="11" Cost="0" Demand="47.412352812209043" Energy="46.628534800698894" />
+    <MonthlyGasUse Month="12" Cost="0" Demand="54.697326756491975" Energy="80.950829130461855" />
+    <MonthlyElecUse Month="1" Cost="0" Demand="0.79197552041367569" Energy="105.57480713994849" />
+    <MonthlyElecUse Month="2" Cost="0" Demand="0.70712502918528419" Energy="67.857387277830085" />
+    <MonthlyElecUse Month="3" Cost="0" Demand="0.70313122333266187" Energy="59.960398953714183" />
+    <MonthlyElecUse Month="4" Cost="0" Demand="1.5663646180504689" Energy="40.176104219505412" />
+    <MonthlyElecUse Month="5" Cost="0" Demand="3.9205286141682536" Energy="54.608278799293636" />
+    <MonthlyElecUse Month="6" Cost="0" Demand="4.3438449952387925" Energy="34.057936298718218" />
+    <MonthlyElecUse Month="7" Cost="0" Demand="3.0803862872656023" Energy="21.039460267973389" />
+    <MonthlyElecUse Month="8" Cost="0" Demand="0.01910000031831989" Energy="14.210400236829791" />
+    <MonthlyElecUse Month="9" Cost="0" Demand="4.4521750476120712" Energy="35.922708171013859" />
+    <MonthlyElecUse Month="10" Cost="0" Demand="1.9369767393284867" Energy="26.748756158327527" />
+    <MonthlyElecUse Month="11" Cost="0" Demand="0.70553729249835184" Energy="55.224197557584972" />
+    <MonthlyElecUse Month="12" Cost="0" Demand="0.81061168349875479" Energy="107.92018263576786" />
+  </Result>
+  <Result CalculationType="ResT24Perf" RunType="Title24" RunDate="11:51:23.4128394-08:00" ResultType="Facing South" Score="0" ScoreNoPV="0" MeasureCost="0" GasUseTherms="515.25115270366246" GasCost="0" ElectricityUsekWh="600.327239245846" ElectricityCost="0">
+    <UtilityElecUse Month="0" Heating="0" Cooling="11.310753246433674" Total="600.32723924584866" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="589.01648599941507" OutdoorLighting="0" Renewables="0" />
+    <UtilityGasUse Month="0" Heating="266.58879986564637" Cooling="0" Total="515.25115270366609" WaterHeating="248.66235283801618" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <TDVUse Month="0" Heating="17.560334806188898" Cooling="0.078922889967938933" Total="36.273758013593834" WaterHeating="15.520546487332181" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="3.11395383010482" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="1" Heating="0" Cooling="0" Total="109.7959481068032" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="109.7959481068032" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="2" Heating="0" Cooling="0" Total="72.590778481600537" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="72.590778481600537" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="3" Heating="0" Cooling="0" Total="66.783985553722459" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="66.783985553722459" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="4" Heating="0" Cooling="0" Total="48.81717809078598" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="48.81717809078598" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="5" Heating="0" Cooling="3.3415557387424921" Total="41.201839906394639" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="37.860284167652146" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="6" Heating="0" Cooling="0.967718715092111" Total="21.228345840235033" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="20.260627125142921" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="7" Heating="0" Cooling="0" Total="14.000300233328479" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="14.000300233328479" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="8" Heating="0" Cooling="0" Total="14.210400236829997" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="14.210400236829997" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="9" Heating="0" Cooling="5.7151031270601376" Total="21.010050261995151" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="15.294947134935015" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="10" Heating="0" Cooling="1.286375665538932" Total="24.449208802503467" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="23.162833136964537" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="11" Heating="0" Cooling="0" Total="56.851130672469367" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="56.851130672469367" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="12" Heating="0" Cooling="0" Total="109.38807305918039" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="109.38807305918039" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="1" Heating="60.86994641036987" Cooling="0" Total="82.493249859002546" WaterHeating="21.623303448632857" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="2" Heating="38.053021145324706" Cooling="0" Total="57.772106221544071" WaterHeating="19.719085076219418" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="3" Heating="33.479447451782228" Cooling="0" Total="55.329744574709238" WaterHeating="21.850297122927053" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="4" Heating="22.329897246551514" Cooling="0" Total="43.377531056315682" WaterHeating="21.047633809764189" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="5" Heating="14.478844761047363" Cooling="0" Total="35.832307160352208" WaterHeating="21.353462399304821" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="6" Heating="3.8425767541503908" Cooling="0" Total="24.463457241498162" WaterHeating="20.620880487347726" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="7" Heating="0" Cooling="0" Total="20.279344340527402" WaterHeating="20.279344340527402" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="8" Heating="0" Cooling="0" Total="20.39740731906786" WaterHeating="20.39740731906786" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="9" Heating="0" Cooling="0" Total="19.721881223025683" WaterHeating="19.721881223025683" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="10" Heating="5.4788506646728514" Cooling="0" Total="26.033941288223136" WaterHeating="20.555090623550328" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="11" Heating="27.446008429870606" Cooling="0" Total="47.664584099710126" WaterHeating="20.218575669839495" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="12" Heating="60.61020700187683" Cooling="0" Total="81.885598319686082" WaterHeating="21.275391317809284" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasUse Month="1" Cost="0" Demand="55.890036450440363" Energy="82.493249859002631" />
+    <MonthlyGasUse Month="2" Cost="0" Demand="51.600857198222158" Energy="57.772106221544092" />
+    <MonthlyGasUse Month="3" Cost="0" Demand="50.575359430254174" Energy="55.329744574709338" />
+    <MonthlyGasUse Month="4" Cost="0" Demand="43.936444056554805" Energy="43.377531056315625" />
+    <MonthlyGasUse Month="5" Cost="0" Demand="42.841744670393808" Energy="35.832307160352187" />
+    <MonthlyGasUse Month="6" Cost="0" Demand="41.386561250605013" Energy="24.128396542197343" />
+    <MonthlyGasUse Month="7" Cost="0" Demand="5.7208376998851245" Energy="20.614405039828295" />
+    <MonthlyGasUse Month="8" Cost="0" Demand="5.65479153050771" Energy="20.39740731906786" />
+    <MonthlyGasUse Month="9" Cost="0" Demand="5.6491731897095478" Energy="19.721881223025665" />
+    <MonthlyGasUse Month="10" Cost="0" Demand="41.244423515659932" Energy="26.033941288223168" />
+    <MonthlyGasUse Month="11" Cost="0" Demand="48.332255155959039" Energy="47.664584099710112" />
+    <MonthlyGasUse Month="12" Cost="0" Demand="55.364150975241976" Energy="81.885598319686181" />
+    <MonthlyElecUse Month="1" Cost="0" Demand="0.80213056866667887" Energy="109.7959481068027" />
+    <MonthlyElecUse Month="2" Cost="0" Demand="0.73379329722751241" Energy="72.590778481600111" />
+    <MonthlyElecUse Month="3" Cost="0" Demand="0.717610987057757" Energy="66.783985553721891" />
+    <MonthlyElecUse Month="4" Cost="0" Demand="0.626497176466818" Energy="48.817178090785667" />
+    <MonthlyElecUse Month="5" Cost="0" Demand="2.0580313252522524" Energy="41.201839906394639" />
+    <MonthlyElecUse Month="6" Cost="0" Demand="1.2512541624796276" Energy="21.018245836733602" />
+    <MonthlyElecUse Month="7" Cost="0" Demand="0.01910000031831989" Energy="14.210400236829791" />
+    <MonthlyElecUse Month="8" Cost="0" Demand="0.01910000031831989" Energy="14.210400236829791" />
+    <MonthlyElecUse Month="9" Cost="0" Demand="2.3867071617253881" Energy="21.010050261995051" />
+    <MonthlyElecUse Month="10" Cost="0" Demand="1.1477598899485881" Energy="24.449208802503534" />
+    <MonthlyElecUse Month="11" Cost="0" Demand="0.71777265064184737" Energy="56.851130672469182" />
+    <MonthlyElecUse Month="12" Cost="0" Demand="0.82130980694220623" Energy="109.38807305918007" />
+  </Result>
+  <Result CalculationType="ResT24Perf" RunType="Title24" RunDate="11:51:23.4128394-08:00" ResultType="Facing West" Score="0" ScoreNoPV="0" MeasureCost="0" GasUseTherms="498.50499167790952" GasCost="0" ElectricityUsekWh="593.70717761176138" ElectricityCost="0">
+    <UtilityElecUse Month="0" Heating="0" Cooling="26.813140651748707" Total="593.70717761176377" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="566.89403696001511" OutdoorLighting="0" Renewables="0" />
+    <UtilityGasUse Month="0" Heating="249.84263883989337" Cooling="0" Total="498.50499167791287" WaterHeating="248.66235283801618" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <TDVUse Month="0" Heating="16.525758636319249" Cooling="0.19681842379295622" Total="35.259643120702393" WaterHeating="15.520546487332181" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="3.0165195732580052" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="1" Heating="0" Cooling="0" Total="109.59944421079129" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="109.59944421079129" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="2" Heating="0" Cooling="0" Total="70.514803841985142" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="70.514803841985142" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="3" Heating="0" Cooling="0" Total="61.960012225227345" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="61.960012225227345" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="4" Heating="0" Cooling="0.00097499493102401436" Total="38.537890313274517" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="38.536915318343496" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="5" Heating="0" Cooling="9.7848706920231461" Total="42.976540451206283" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="33.191669759183135" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="6" Heating="0" Cooling="5.1526440436840755" Total="25.144773269237536" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="19.992129225553462" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="7" Heating="0" Cooling="1.6249951357859653" Total="16.063908717515634" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="14.438913581729668" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="8" Heating="0" Cooling="0" Total="14.210400236829997" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="14.210400236829997" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="9" Heating="0" Cooling="9.43187095984105" Total="25.727042291229363" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="16.295171331388314" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="10" Heating="0" Cooling="0.81778482548344567" Total="23.230958602730912" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="22.413173777247469" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="11" Heating="0" Cooling="0" Total="56.533997676255872" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="56.533997676255872" OutdoorLighting="0" Renewables="0" />
+    <MonthlyElecEndUse Month="12" Heating="0" Cooling="0" Total="109.20740577547983" WaterHeating="0" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="109.20740577547983" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="1" Heating="60.744810301570894" Cooling="0" Total="82.368113750203577" WaterHeating="21.623303448632857" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="2" Heating="36.731016986885074" Cooling="0" Total="56.450102063104424" WaterHeating="19.719085076219418" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="3" Heating="30.407487107543947" Cooling="0" Total="52.257784230470953" WaterHeating="21.850297122927053" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="4" Heating="15.783141564941406" Cooling="0" Total="36.830775374705574" WaterHeating="21.047633809764189" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="5" Heating="10.411331854400634" Cooling="0" Total="31.764794253705464" WaterHeating="21.353462399304821" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="6" Heating="2.9449128637695314" Cooling="0" Total="23.565793351117293" WaterHeating="20.620880487347726" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="7" Heating="0" Cooling="0" Total="20.279344340527402" WaterHeating="20.279344340527402" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="8" Heating="0" Cooling="0" Total="20.39740731906786" WaterHeating="20.39740731906786" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="9" Heating="0" Cooling="0" Total="19.721881223025683" WaterHeating="19.721881223025683" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="10" Heating="5.08072771850586" Cooling="0" Total="25.635818342056144" WaterHeating="20.555090623550328" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="11" Heating="27.244054515533449" Cooling="0" Total="47.46263018537298" WaterHeating="20.218575669839495" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasEndUse Month="12" Heating="60.495155926742555" Cooling="0" Total="81.7705472445518" WaterHeating="21.275391317809284" Appliances="0" Ancillary="0" IndoorLighting="0" Pumps="0" Fans="0" OutdoorLighting="0" Renewables="0" />
+    <MonthlyGasUse Month="1" Cost="0" Demand="55.246485669190363" Energy="82.368113750203563" />
+    <MonthlyGasUse Month="2" Cost="0" Demand="48.527993916972157" Energy="56.450102063104431" />
+    <MonthlyGasUse Month="3" Cost="0" Demand="50.000648492754173" Energy="52.257784230471096" />
+    <MonthlyGasUse Month="4" Cost="0" Demand="42.892737025304804" Energy="36.830775374705553" />
+    <MonthlyGasUse Month="5" Cost="0" Demand="41.864210828361976" Energy="31.764794253705446" />
+    <MonthlyGasUse Month="6" Cost="0" Demand="40.554197969355009" Energy="23.230732651816485" />
+    <MonthlyGasUse Month="7" Cost="0" Demand="5.7208376998851245" Energy="20.614405039828295" />
+    <MonthlyGasUse Month="8" Cost="0" Demand="5.65479153050771" Energy="20.39740731906786" />
+    <MonthlyGasUse Month="9" Cost="0" Demand="5.6491731897095478" Energy="19.721881223025665" />
+    <MonthlyGasUse Month="10" Cost="0" Demand="40.58104851565993" Energy="25.635818342056179" />
+    <MonthlyGasUse Month="11" Cost="0" Demand="47.096219999709042" Energy="47.462630185372973" />
+    <MonthlyGasUse Month="12" Cost="0" Demand="54.511592381491973" Energy="81.770547244551992" />
+    <MonthlyElecUse Month="1" Cost="0" Demand="0.79202466328193666" Energy="109.59944421079086" />
+    <MonthlyElecUse Month="2" Cost="0" Demand="0.687483404446235" Energy="70.514803841984687" />
+    <MonthlyElecUse Month="3" Cost="0" Demand="0.70858608170963966" Energy="61.960012225226762" />
+    <MonthlyElecUse Month="4" Cost="0" Demand="0.610107636472678" Energy="38.537890313274573" />
+    <MonthlyElecUse Month="5" Cost="0" Demand="3.0365582166303473" Energy="42.976540451205928" />
+    <MonthlyElecUse Month="6" Cost="0" Demand="3.4051318030325226" Energy="24.934673265736304" />
+    <MonthlyElecUse Month="7" Cost="0" Demand="2.0827084845054755" Energy="16.274008721016973" />
+    <MonthlyElecUse Month="8" Cost="0" Demand="0.01910000031831989" Energy="14.210400236829791" />
+    <MonthlyElecUse Month="9" Cost="0" Demand="3.0219181484397892" Energy="25.727042291229264" />
+    <MonthlyElecUse Month="10" Cost="0" Demand="1.0612686027573799" Energy="23.230958602730983" />
+    <MonthlyElecUse Month="11" Cost="0" Demand="0.69849770180193382" Energy="56.53399767625568" />
+    <MonthlyElecUse Month="12" Cost="0" Demand="0.8087923243847055" Energy="109.20740577547949" />
+  </Result>
+  <BillingElec Month="1" Cost="0" Demand="0" Energy="0" />
+  <BillingElec Month="2" Cost="0" Demand="0" Energy="0" />
+  <BillingElec Month="3" Cost="0" Demand="0" Energy="0" />
+  <BillingElec Month="4" Cost="0" Demand="0" Energy="0" />
+  <BillingElec Month="5" Cost="0" Demand="0" Energy="0" />
+  <BillingElec Month="6" Cost="0" Demand="0" Energy="0" />
+  <BillingElec Month="7" Cost="0" Demand="0" Energy="0" />
+  <BillingElec Month="8" Cost="0" Demand="0" Energy="0" />
+  <BillingElec Month="9" Cost="0" Demand="0" Energy="0" />
+  <BillingElec Month="10" Cost="0" Demand="0" Energy="0" />
+  <BillingElec Month="11" Cost="0" Demand="0" Energy="0" />
+  <BillingElec Month="12" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="1" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="2" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="3" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="4" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="5" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="6" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="7" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="8" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="9" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="10" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="11" Cost="0" Demand="0" Energy="0" />
+  <BillingGas Month="12" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="1" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="2" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="3" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="4" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="5" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="6" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="7" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="8" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="9" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="10" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="11" Cost="0" Demand="0" Energy="0" />
+  <NormalizedElec Month="12" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="1" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="2" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="3" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="4" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="5" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="6" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="7" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="8" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="9" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="10" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="11" Cost="0" Demand="0" Energy="0" />
+  <NormalizedGas Month="12" Cost="0" Demand="0" Energy="0" />
+  <BillingStartDate>2009-10-08T00:00:00-07:00</BillingStartDate>
+</Title24XML>

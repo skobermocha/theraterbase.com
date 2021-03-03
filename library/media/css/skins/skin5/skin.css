@@ -1,0 +1,39 @@
+/* The Body */
+body { background-color: #fff; color: #07093d; }
+
+/* Heading Colors */
+h1, h2, h3, h4, h5, h6 { color: #0e4ead; }
+
+/* Links */
+a { color: #0e4ead; }
+
+/*.nav li.page_item a:hover { color: #fff; background: transparent url('menu_item_bg_right.gif') no-repeat scroll right top; }
+.nav li.page_item span:hover { background: transparent url('menu_item_bg_left.gif') no-repeat scroll left top; }*/
+
+.ie6 .nav li.page_item a:hover { background: none; color: #107fc9; } /* Handle IE6 Limitations */
+
+/*.nav li.current_page_item a, .nav li.current_page_ancestor a { color: #fff !important; background: transparent url('menu_item_bg_right.gif') no-repeat scroll right top !important; }
+.nav li.current_page_item span, .nav li.current_page_ancestor span { background: transparent url('menu_item_bg_left.gif') no-repeat scroll left top; }*/
+
+/* Footer */
+.footer { background: transparent url('footer_bg.gif') no-repeat; }
+.footer #copyright { color: #fff;}
+.footer a { color: #fff; }
+.footer a:hover { color: #107fc9; }
+.footer .separator { color: #fff; }
+
+/* Inner Page Sub-Header */
+/*#sub-header { background: transparent url('sub_header_bg.gif')no-repeat; }
+#sub-header h2, #sub-header p { color: #fff; }*/
+
+/* Sidebar Widgets */
+.widget li.page_item { background: transparent url('bullet_unselected.gif') no-repeat scroll left 4px; }
+.widget li.page_item:hover { background: transparent url('bullet_selected.gif') no-repeat scroll left 4px; }
+.widget h4 { color: #0e4ead; }
+
+/* Tables */
+.list tr { background-color:#ffffcc; color:#000;}
+.list tr:hover{ background-color:#ffcc66; cursor: pointer; color:#FFFFFF;}
+.list th { background-color:#ffcc66; border-bottom: 3px solid #ffffff; color:#FFFFFF; }
+.list td { border-bottom: 3px solid #ffffff;  }
+table tfoot tr { background-color:#ffcc66;}

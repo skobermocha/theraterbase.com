@@ -1,0 +1,20 @@
+/*
+Theme Name:		UniSphere Corporate
+Theme URI: 		http://www.unispheredesign.com/
+Version: 		1.0
+Description: 	Designed by <a href="http://www.unispheredesign.com">UniSphere Design</a>.
+
+/* Reset Browser Defaults */
+@import url( 'reset.css' );
+
+/* Apply base theme styles and colors */
+@import url( 'base.css' );
+
+/* Basic 2 Column Layout */
+@import url( '/layouts/2col-l.css' );
+
+/* Stylistic CSS Styles */
+@import url( 'screen.css' );
+
+/* These empty css selectors are temporarily here for compatiability with the WordPress theme repository checklist. */
+.aligncenter {} .alignleft {} .alignright {} .wp-caption {} .wp-caption-text {}
